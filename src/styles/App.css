@@ -1,0 +1,89 @@
+/* Global variables and resets */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* Light Mode */
+.light-mode {
+  --bg-color: #f8fafc;
+  --text-color: #1f2937;
+  --sidebar-bg: #ffffff;
+  --sidebar-text: #1f2937;
+  --sidebar-border: #e5e7eb;
+  --footer-bg: #ffffff;
+  --footer-border: #e5e7eb;
+  --bubble-bg: #ffffff;
+  --user-bubble-bg: #3b82f6;
+  --assistant-bubble-bg: #f1f5f9;
+  --bubble-text: #1f2937;
+  --user-bubble-text: #ffffff;
+  --tag-color: #1f2937;
+  --tag-bg: #e5e7eb;
+  --menu-hover: #f3f4f6;
+  --menu-selected: #dbeafe;
+  --input-bg: #ffffff;
+  --input-border: #d1d5db;
+  --input-text: #1f2937;
+  --input-placeholder: #9ca3af;
+  --input-hover-bg: #ffffff;
+  --input-hover-border: #93c5fd;
+  --input-hover-text: #1f2937;
+  --filter-hover-bg: #e2e8f0;
+  --filter-hover-border: #cbd5e1;
+  --filter-hover-text: #1e293b;
+  --drawer-bg: #ffffff;
+  --drawer-text: #1f2937;
+  --toggle-bg: #3b82f6;
+  --toggle-text: #ffffff;
+  --filter-active-bg: #3b82f6;
+  --time-color: #64748b;
+  --dropdown-bg: #ffffff;
+  --dropdown-text: #1f2937;
+  --dropdown-hover: #f3f4f6;
+}
+
+/* Dark Mode */
+.dark-mode {
+  --bg-color: #111827;
+  --text-color: #d1d5db;
+  --sidebar-bg: #1a2235;
+  --sidebar-text: #d1d5db;
+  --sidebar-border: #1e293b;
+  --footer-bg: #1a2235;
+  --footer-border: #1e293b;
+  --bubble-bg: #1a2235;
+  --user-bubble-bg: #1d4ed8;
+  --assistant-bubble-bg: #111827;
+  --bubble-text: #d1d5db;
+  --user-bubble-text: #ffffff;
+  --tag-color: #d1d5db;
+  --tag-bg: #1e293b;
+  --menu-hover: #1e293b;
+  --menu-selected: #1e3a8a;
+  --input-bg: #1e293b;
+  --input-border: #334155;
+  --input-text: var(--text-color);
+  --input-placeholder: #64748b;
+  --input-hover-bg: #1e293b;
+  --input-hover-border: #60a5fa;
+  --input-hover-text: #f8fafc;
+  --filter-hover-bg: #1e293b;
+  --filter-hover-border: #475569;
+  --filter-hover-text: #e2e8f0;
+  --drawer-bg: #1a2235;
+  --drawer-text: #d1d5db;
+  --toggle-bg: #1d4ed8;
+  --toggle-text: #ffffff;
+  --filter-active-bg: #1d4ed8;
+  --time-color: #94a3b8;
+  --dropdown-bg: #1e293b;
+  --dropdown-text: #d1d5db;
+  --dropdown-hover: #1e3a8a;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}

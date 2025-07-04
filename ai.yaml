@@ -1,0 +1,17 @@
+
+---
+
+## 🧪 How to Run
+
+Make sure you have **Node.js** and **npm** installed.
+
+```bash
+# 1. Clone the project
+git clone https://github.com/sathyan10/aiboard-ui.git
+cd aiboard-ui
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm start
